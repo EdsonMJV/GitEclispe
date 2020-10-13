@@ -28,7 +28,6 @@ public class Main {
 		
 		int count = 0;
 		
-		
 		for(Empresa emp : empresas) {
 			System.out.println(emp.getNome());
 		}
@@ -53,7 +52,6 @@ public class Main {
 				continue;
 			}
 			
-			//1000 linhas de codigo.
 			count++;
 		}
 		
