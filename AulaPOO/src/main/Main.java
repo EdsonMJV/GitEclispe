@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		
-		Empresa empresa1 = new Empresa();
+		Empresa emp1 = new Empresa();
 		Empresa emp2 = new Empresa();
 		Empresa emp3 = new Empresa();
 		emp3.setNome("Empresa 3");
@@ -20,7 +20,7 @@ public class Main {
 		
 		List<Empresa> empresas = new ArrayList<>();
 		
-		empresas.add(empresa1);
+		empresas.add(emp1);
 		empresas.add(emp2);
 		empresas.add(emp3);
 		empresas.add(emp4);
@@ -29,7 +29,7 @@ public class Main {
 		int count = 0;
 		
 		for(Empresa emp : empresas) {
-			System.out.println("Teste mostrando conflito");
+			System.out.println(emp.getNome());
 		}
 		
 		
